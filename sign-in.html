@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			background-image: url(https://th.bing.com/th/id/R.534617b14568bc86c2a7a4aa7a157b04?rik=u%2fJScnlr01RsbA&riu=http%3a%2f%2fgifimage.net%2fwp-content%2fuploads%2f2017%2f10%2fcurtain-opening-gif-2.gif&ehk=kupMXMTnaQW4K3vLJ%2fzTo2ALH7js4ISt21XWAgDT2xo%3d&risl=&pid=ImgRaw&r=0);
+			background-size:cover;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            width: 400px; /* Adjust the width as needed */
+            background-color: #f2f2f2;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .login-container h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 10px 0;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>sign-in</h2>
+        <form action="login.php" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit"> <a href="shop.html">Login</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
